@@ -1,0 +1,16 @@
+/* nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+} */
+
+#nav {
+    margin-left: 50rem;
+}
+
+* {
+
+    font-family: 'Roboto', sans-serif;
+}
