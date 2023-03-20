@@ -1,8 +1,8 @@
-const { postSchema, commentSchema } = require("./schemas.js")
-const ExpressError = require("./utils/ExpressError")
+const { postSchema, commentSchema } = require("../schemas.js")
+const ExpressError = require("./ExpressError")
 
-const Comment = require("./models/comments");
-const Post = require("./models/posts");
+const Comment = require("../models/comments");
+const Post = require("../models/posts");
 
 
 module.exports.isLoggedIn = (req, res, next) => {
