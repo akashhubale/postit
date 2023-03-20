@@ -19,7 +19,7 @@
   },
   "name": "postit",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "devDependencies": {},
   "engines": {
     "node": "14.x"
